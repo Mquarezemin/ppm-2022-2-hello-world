@@ -1,7 +1,26 @@
-body{
+body {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: greenyellow;
+    background-color: black;
+}
+button{
+    background-color: black;
+    color: greenyellow;
+    border: 1px dashed greenyellow;
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+input{
+    background-color: greenyellow;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
     text-align: center;
 }
-p{
-    color: red;
-    font-family: 'Courier New', Courier, monospace;
+div{
+    border: 2px dashed greenyellow;
+    padding: 0px 15px 15px;
+    width: 200px;
+    margin: auto;
 }
