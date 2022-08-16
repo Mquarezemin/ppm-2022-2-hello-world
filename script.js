@@ -1,7 +1,10 @@
-document.querySelector('clique-aqui').click = () => {
-    const nome = document.querySelector('#campo-nome').value;
-    if (nome){
-        alert(`hello word, ${nome}!`);
+document.querySelector('#clique-aqui').onclick = () => {
+    const nome = document.querySelector('#campo-nome').value;    
+    if(nome) {
+        alert(`Hello world, ${nome}!`);
     }
-    console.log(nome);
+};
+
+document.querySelector('#limpar').onclick = () => {
+    document.querySelector('#campo-nome').value = '';
 };
